@@ -12,6 +12,9 @@ proxy-groups:
       - 🇰🇷 韩国节点
       - 🚀 手动切换
       - DIRECT
+  - name: 🚀 手动切换
+    include-all: true
+    type: select
   - name: ♻️ 自动选择
     type: url-test
     include-all: true
